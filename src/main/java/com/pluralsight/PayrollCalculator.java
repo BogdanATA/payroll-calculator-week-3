@@ -26,9 +26,9 @@ public class PayrollCalculator {
                 Employee employee = new Employee(employeeId, name, hoursWorked, payRate);
 
                 System.out.printf("Employee ID: %d | Name: %s | Gross Pay: $%.2f%n",
-                        employee.getEmployeeId(), employee.getName(), employee.getGrossPay());;
+                        employee.getEmployeeId(), employee.getName(), employee.getGrossPay());
             }
-
+            bufferedReader.close();
         } catch (IOException e) {
             System.out.println("Error reading file.");
         }
