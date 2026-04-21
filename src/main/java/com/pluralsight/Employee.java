@@ -3,7 +3,7 @@ package com.pluralsight;
 public class Employee {
     private int employeeId;
     private String name;
-    private int hoursWorked;
+    private double hoursWorked;
     private double payRate;
 
 
@@ -30,7 +30,7 @@ public class Employee {
         this.name = name;
     }
 
-    public int getHoursWorked() {
+    public double getHoursWorked() {
         return hoursWorked;
     }
 
@@ -46,9 +46,6 @@ public class Employee {
         this.payRate = payRate;
     }
 
-    public void getEmployeeId1(){
-
-    }
 
     public void getGrossPay(){
 
